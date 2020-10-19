@@ -3,6 +3,7 @@ import React from 'react';
 import ComponentC from './components/ComponentC';
 import CounterOne from './components/CounterOne';
 import CounterTwo from './components/CounterTwo';
+import CounterThree from './components/CounterThree';
 
 import './App.css';
 
@@ -13,7 +14,9 @@ function App() {
   return (
     <div className="App">
 
-      <CounterTwo />
+      <CounterThree />
+
+      {/* <CounterTwo /> */}
 
       {/* <CounterOne /> */}
 
